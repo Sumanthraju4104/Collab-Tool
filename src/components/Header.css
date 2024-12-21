@@ -1,0 +1,38 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.header-cont{
+        height: 60px;
+        background-color: black;
+        color: white;
+       
+        display: flex;
+        justify-content: space-between; 
+        align-items: center; 
+        padding: 0 20px; 
+    
+}
+.login-btn,.signup-btn,.home-btn {
+    background: none;
+    border: 1px solid #fff;
+    color: #fff;
+    padding: 8px 16px;
+    margin-left: 10px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background 0.3s ease;
+  }
+.login-btn:hover,.home-btn:hover {
+      background: #fff;
+      color: #000;
+    }
+    
+.signup-btn:hover{
+      background: #1db954;
+      border: none;
+    }
+a{
+text-decoration: none;
+}
